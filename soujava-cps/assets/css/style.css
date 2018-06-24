@@ -1,0 +1,236 @@
+/* Space out content a bit */
+body {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+}
+a{
+  color:#CC0000;
+  text-decoration: underline;
+  -webkit-transition: all .2s;
+-moz-transition: all .2s;
+transition: all .2s
+}
+p{
+  font-size: 13px;
+line-height: 1.5;
+margin-bottom: 20px;
+color:#555;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.btn{
+border-radius: 300px;
+font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+a.btn{
+  text-decoration: none!important;
+}
+.text-primary{
+  color:#CC0000!important;
+}
+
+.bg-primary,.btn-primary {
+    background-color: #555 !important
+}
+
+.bg-dark {
+    color: #fff;
+    background-color: #222 !important
+}
+
+.text-faded {
+    color: rgba(255, 255, 255, .7)
+}
+
+section {
+    padding: 30px 0
+}
+
+.section-heading {
+    margin-top: 0
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 10rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header .navbar-brand {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+
+/* Customize container */
+
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: .05rem solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 3rem 0;
+}
+.marketing p + h4 {
+  margin-top: 1.5rem;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 1rem;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+/* Overwrite */
+
+.nav-pills .nav-link, .show>.nav-pills .nav-link{
+  color: #CC0000;
+}
+
+.nav-pills .nav-link.active, .show>.nav-pills .nav-link{
+  color: #fff;
+  background-color: #CC0000;
+}
+.nav-pills .nav-link{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+@media(max-width:768px) {
+    .navbar .navbar-nav>.nav-item {
+        float: none;
+        margin-left: .1rem;
+    }
+    .navbar .navbar-nav {
+        float:none !important;
+    }
+    .navbar .collapse.in, .navbar .collapsing  {
+        clear:both;
+    }
+}
+
+hr.section-title{
+  max-width: 50px;
+border-width: 3px;
+border-color: #f05f40
+}
+
+.jumbotron{
+  background: #000;
+}
+
+.country{
+  background: rgba(103, 42, 120, 0.93)!important;
+}
+
+.jumbotron h1{
+  color:#fff;
+}
+.jumbotron p.lead{
+  color:#b99f37!important;
+}
+
+form{
+	margin: o auto;
+	width: 400px;
+	/* para ver as bordas do formulário*/
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label{
+	 /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+	display:inline-block;
+	width: 90px;
+	text-align: right;
+}
+
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+
+.button {
+    /* Para posicionar os botões para a mesma posição dos campos de texto */
+    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+}
+button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    margin-left: .5em;
+	
+}
+
+
