@@ -6,11 +6,10 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web);
 	/*importado da google*/
 body {
-	font-family: Arial, sans-serif;
+	font-family: verdana,Calibri, sans-serif;
 	 background-color:#414141; 
 	 /* background-image:
-		url("../imagens/JavaAtRio.jpeg"); 
-	background-repeat:round; */	
+		
 }
 
 /*formatação da interface*/
@@ -90,7 +89,7 @@ figure.foto-legenda {
 }
 
 img#foto-logo {
-	width: 310px;
+	width: 300px;
 	margin: 20px; 
 	margin-left: 20px;
 	
@@ -132,7 +131,7 @@ header#cabecalho nav#menu ul {
 
 /*para lista do menu*/
 header#cabecalho nav#menu li {
-	font-family: "Arial";
+	font-family: "verdana";
 	font-weight: bold;
 	display: inline-block; /*itens do menu em reta*/
 	background-color: #dddddd; /*cor de fundo*/
@@ -140,7 +139,7 @@ header#cabecalho nav#menu li {
 	padding: 10px;
 	
 	/*preenchimento CSS definir o espaço entre a borda do elemento e o conteúdo do elemento*/
-	margin: 1px; /*espaçamento entre os itens*/
+	margin: 10px; /*espaçamento entre os itens*/
 	
 	/*para navegadores antigos*/
 	-webkit-transition: background-color 1s;
@@ -160,7 +159,8 @@ header#cabecalho nav#menu li {
 /*configurando a section*/
 section#corpo p {
 	color: black;
-	font-size: medium;
+	font-family: calibri,verdana;
+	font-size: 30px;
 	font-style: italic;
 	font-weight: bold;
 }
@@ -214,6 +214,8 @@ header#cabecalho nav#menu a:hover {
 	color: #ffffff;
 }
 
+
+
 /*Configurando o rodape*/
  footer#rodape {
 	clear: both; /*limpa a configuração*/
@@ -239,5 +241,5 @@ footer#rodape p {
 	font-style: italic;
 	font-weight: bold;
 	color: black;
-	font-family: 'Titillium Web' 'Arial'; /*importado da google*/
+	font-family: 'sans-serif' 'verdana'; /*importado da google*/
 }

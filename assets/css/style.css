@@ -2,7 +2,7 @@
 body {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+  font-family: Verdana,Calibri,  Arial, sans-serif;
 }
 a{
   color:#CC0000;
@@ -10,15 +10,34 @@ a{
   -webkit-transition: all .2s;
 -moz-transition: all .2s;
 transition: all .2s
+
 }
 p{
-  font-size: 13px;
+  font-size: 15px;
 line-height: 1.5;
 margin-bottom: 20px;
 color:#555;
 }
+
+ul{
+list-style-type: square;
+}
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-family: Calibri, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.navbar-brand{
+position:right;
+ transition: width 2s;
+    -webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
+
+}
+
+div.carousel-item{
+
+  width: 1050px;
+  height: 380px;
 }
 
 .btn{
@@ -27,6 +46,7 @@ font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 a.btn{
   text-decoration: none!important;
+
 }
 .text-primary{
   color:#CC0000!important;
@@ -58,6 +78,7 @@ section {
 .footer {
   padding-right: 1rem;
   padding-left: 1rem;
+
 }
 
 /* Custom page header */
@@ -68,6 +89,7 @@ section {
 /* Make the masthead heading the same height as the navigation */
 .header .navbar-brand {
   margin-top: 0;
+
   margin-bottom: 0;
   line-height: 3rem;
 }
@@ -124,29 +146,30 @@ section {
 
 /* Overwrite */
 
-.nav-pills .nav-link, .show>.nav-pills .nav-link{
+/*.nav-pills .nav-link, .show>.nav-pills .nav-link{
   color: #CC0000;
-}
+ background-color: white;
+}*/
 
-.nav-pills .nav-link.active, .show>.nav-pills .nav-link{
-  color: #fff;
-  background-color: #CC0000;
-}
+
 .nav-pills .nav-link{
-  text-decoration: none;
+  text-decoration-line: none;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Verdana','Calibri',  Arial, sans-serif;
 }
 
 @media(max-width:768px) {
     .navbar .navbar-nav>.nav-item {
         float: none;
         margin-left: .1rem;
+
+
     }
     .navbar .navbar-nav {
         float:none !important;
+
     }
     .navbar .collapse.in, .navbar .collapsing  {
         clear:both;
@@ -156,7 +179,7 @@ section {
 hr.section-title{
   max-width: 50px;
 border-width: 3px;
-border-color: #f05f40
+border-color: #f05f40;
 }
 
 .jumbotron{
@@ -175,12 +198,14 @@ border-color: #f05f40
 }
 
 form{
-	margin: o auto;
+	margin: 0 auto;
 	width: 400px;
 	/* para ver as bordas do formulário*/
 	padding: 1em;
 	border: 1px solid #CCC;
 	border-radius: 1em;
+
+
 }
 
 form div + div {
@@ -205,6 +230,7 @@ input, textarea {
 
     /* Para harmonizar o look & feel das bordas nos campos de texto*/
     border: 1px solid #999;
+
 }
 
 input:focus, textarea:focus {
@@ -232,5 +258,19 @@ button {
     margin-left: .5em;
 	
 }
+
+.nav-item:hover{
+
+  background-color: #CC0000;
+  
+
+}
+
+
+
+
+
+
+
 
 
