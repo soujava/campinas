@@ -1,1 +1,1 @@
-# https://github.com/soujava/soujavacampinas.com
+# https://github.com/soujava/campinas
